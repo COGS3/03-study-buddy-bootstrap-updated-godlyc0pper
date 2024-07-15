@@ -1,0 +1,204 @@
+/* styles1.css */
+
+body {
+  font-family: 'Mulish', sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+}
+
+.navbar-brand, .nav-link {
+  font-family: 'Raleway', sans-serif;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #d4af37 !important;
+}
+
+/* Title Section */
+#title {
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: #fff;
+  padding: 100px 0;
+}
+
+#title h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.download-button {
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+.download-button i {
+  margin-right: 10px;
+}
+
+.title-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Features Section */
+#features {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.feature-box {
+  margin: 20px 0;
+}
+
+.feature-box i {
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.feature-box h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.feature-box p {
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.carousel-inner {
+  margin: auto;
+}
+
+.carousel-item h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #d4af37;
+}
+
+/* Pricing Section */
+#pricing {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.pricing-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.pricing-column {
+  margin-bottom: 30px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #d4af37;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.card-body h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.card-body p {
+  font-family: 'Mulish', sans-serif;
+}
+
+.btn-dark {
+  background-color: #333;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #555;
+}
+
+.btn-outline-dark {
+  border-color: #333;
+  color: #333;
+}
+
+.btn-outline-dark:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #243b55;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#cta .download-button {
+  margin: 10px;
+}
+
+/* Footer */
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icon {
+  color: #d4af37;
+  margin: 0 10px;
+}
+
+.social-icon:hover {
+  color: #fff;
+}
+
+#footer p {
+  margin: 10px 0 0;
+  font-family: 'Mulish', sans-serif;
+}
