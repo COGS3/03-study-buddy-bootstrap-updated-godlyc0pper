@@ -15,12 +15,12 @@ body {
 
 .navbar-brand, .nav-link {
   font-family: 'Raleway', sans-serif;
-  color: #fff !important;
+  color: #fff;
   font-weight: 600;
 }
 
 .navbar-brand:hover, .nav-link:hover {
-  color: #d4af37 !important;
+  color: #d4af37;
 }
 
 /* Title Section */
